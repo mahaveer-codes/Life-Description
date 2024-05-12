@@ -57,3 +57,31 @@ h1 {
 .OMG {
    justify-self: unset;
 }
+
+
+.grid{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 16px 50px;
+   padding: 30px;
+}
+
+.card{
+   border-radius: 12px;
+   box-shadow: 1 1 2px 2px #00000055;
+   /* text-align: center; */
+   background-color: white;
+}
+
+.card img{
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   height: 200px;
+   width: auto;
+}
+
+.card p, .card h1{
+   text-align: left;
+}
+
